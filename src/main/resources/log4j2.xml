@@ -3,7 +3,7 @@
         <Console name="ConsoleAppender" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{dd/MM/yyyy:HH;mm;ss SSS} [%F] [%level] %logger{36} %msg%n"/>
         </Console>
-        <File name="FileAppender" filename="calculator.log" immediateFlush="false" append="true">
+        <File name="FileAppender" filename="./target/integrator.log" immediateFlush="false" append="true">
             <PatternLayout pattern="%d{dd/MM/yyyy:HH;mm;ss SSS} [%F] [%level] %logger{36} %msg%n"/>
         </File>
     </Appenders>
