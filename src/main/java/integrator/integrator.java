@@ -39,8 +39,8 @@ public class integrator {
         triggers.put("0",trig_1);
         triggers.put("1",trig_2);
 
-        //save_data(virtual_machines,triggers);
-        load_data(virtual_machines, triggers);
+        save_data(virtual_machines,triggers);
+        load_data(virtual_machines,triggers);
         ArrayList<Integer> lst = new ArrayList<>();
         lst.add(1);
         lst.add(0);
